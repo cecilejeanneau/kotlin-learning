@@ -29,6 +29,9 @@
       <SelectionState runConfigName="tpvm">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="mod3demo4factoryvminjectiondep">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
