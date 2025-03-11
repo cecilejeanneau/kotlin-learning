@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mod5demo3passwordfield"
+    namespace = "com.example.mod6demo1datastore"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.mod5demo3passwordfield"
+        applicationId = "com.example.mod6demo1datastore"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -51,6 +51,14 @@ android {
 
 dependencies {
 
+//    lib.version add dep lib with versions and then hover and reduce...
+//    datastore
+    implementation (libs.androidx.datastore.preferences)
+//    coroutines
+//    implementation (libs.kotlinx.coroutines.android)
+//    viewmodel
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -66,5 +74,4 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation(kotlin("script-runtime"))
 }
