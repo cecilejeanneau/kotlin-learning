@@ -20,6 +20,10 @@
             <option value="$PROJECT_DIR$/mod3demo5lists" />
             <option value="$PROJECT_DIR$/mod4demo1states" />
             <option value="$PROJECT_DIR$/mod4demo2viewmodel" />
+            <option value="$PROJECT_DIR$/mod5demo1activitiesandintents" />
+            <option value="$PROJECT_DIR$/mod5demo2implicitintent" />
+            <option value="$PROJECT_DIR$/mod5demo3passwordfield" />
+            <option value="$PROJECT_DIR$/mod5demo4navigation" />
             <option value="$PROJECT_DIR$/tpvm" />
           </set>
         </option>
