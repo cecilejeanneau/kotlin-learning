@@ -65,6 +65,9 @@
       <SelectionState runConfigName="mod6demo1datastore">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
+      <SelectionState runConfigName="mod6demo2sqlite">
+        <option name="selectionMode" value="DROPDOWN" />
+      </SelectionState>
     </selectionStates>
   </component>
 </project>
